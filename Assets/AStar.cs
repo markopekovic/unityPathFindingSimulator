@@ -12,7 +12,7 @@ public class AStar : PathFindingAlg
     }
 
     public override IEnumerator calculate(Grid grid)
-    {
+    { 
         float startTime = Time.time;
 
         Field startField = grid.getStartField();
